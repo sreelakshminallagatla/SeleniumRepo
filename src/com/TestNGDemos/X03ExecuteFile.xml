@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "sree">
+     <test name = "MyTest1">
+      <classes>
+      <class name = "com.TestNGDemos.D05AmazonTest" >
+      	 
+      </class>
+          </classes>
+   
+   </test>
+   <test name = "MyTest2">
+   <classes>
+   <class name = "com.TestNGDemos.D02SecondTest">
+   </class>
+   </classes>
+   </test>
+</suite>

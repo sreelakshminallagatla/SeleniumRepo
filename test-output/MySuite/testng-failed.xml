@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MySuite]">
+  <test name="My Test(failed)">
+    <classes>
+      <class name="com.TestNGDemos.D06DataDrivenTesting">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="loginToOHRM" invocation-numbers="1 2"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.TestNGDemos.D06DataDrivenTesting -->
+    </classes>
+  </test> <!-- My Test(failed) -->
+</suite> <!-- Failed suite [MySuite] -->
